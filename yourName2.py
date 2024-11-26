@@ -1,4 +1,4 @@
-while True:
+while True:# Infine loop
     print("Please type your name.")
     name = input()
     if name == "your name":
