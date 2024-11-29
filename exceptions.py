@@ -2,7 +2,8 @@ def spam(devideBy):
     try:
         return 42 / devideBy
     except ZeroDivisionError:
-        print('Error:Invalid argument.')
+        print("Error:Invalid argument.")
+
 
 print(spam(2))
 print(spam(12))
